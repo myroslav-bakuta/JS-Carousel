@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS carousel</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Coded by Myroslav Bakuta -->
+
+</head>
+
+<body>
+    <div class="carousel">
+
+        <ul id="slides" class="slides">
+            <li class="slide active" style="background-image: url(assets/img/1.jpg);"></li>
+            <li class="slide" style="background-image: url(assets/img/2.jpg);"></li>
+            <li class="slide" style="background-image: url(assets/img/3.jpg);"></li>
+            <li class="slide" style="background-image: url(assets/img/4.jpg);"></li>
+            <li class="slide" style="background-image: url(assets/img/5.jpg);"></li>
+        </ul>
+
+        <ol class="indicators">
+            <li class="indicator active" data-slide-to="0"></li>
+            <li class="indicator" data-slide-to="1"></li>
+            <li class="indicator" data-slide-to="2"></li>
+            <li class="indicator" data-slide-to="3"></li>
+            <li class="indicator" data-slide-to="4"></li>
+        </ol>
+
+        <div class="controls">
+            <a class="previous" id="previous"><span class="previous-icon"></span></a>
+            <a class="pause-play" id="pause">Pause</a>
+            <a class="next" id="next"><span class="next-icon"></span></a>
+        </div>
+
+    </div>
+
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
